@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-particulas-abstratas-tecnologia-realista_23-2148429738.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color:#9b7eec73;
+    border-radius: 13px;
+    padding: 22px;
+    padding-top: 60px;
+    box-shadow: 0px 10px 15px#af9ff881;
+    text-align: center;  
+}
+
+#pergunta{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#opcoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: #000000;
+    
+}
+
+button {
+    margin: 5px;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #881ad1;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 50%;
+}
+button:hover {
+    background-color: #360168;
+}
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.correto {
+    color: #881ad1;
+    font-size: 1.3em;
+}
+.incorreto {
+    color: #FF0000;
+    font-size: 1.3em;
+}
+#quiz-terminado {
+    display: none;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #000000;
+    font-size: 15px;
+    color: aliceblue;
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
